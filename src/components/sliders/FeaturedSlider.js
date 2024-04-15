@@ -40,11 +40,11 @@ const FeaturedSlider = () => {
             breakpoints={{
                 768: {
                     slidesPerView: 3,
-                    spaceBetween: 250
+                    spaceBetween: 200
                 },
                 992: {
                     slidesPerView: 3,
-                    spaceBetween: 300
+                    spaceBetween: 200
                 },
             }}
             className="featured_swiper"

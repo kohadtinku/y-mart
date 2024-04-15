@@ -65,17 +65,27 @@
         grid-row: 1;
     }
 }
-.prod_details_img img:nth-child(1){
-    animation: rotation 8s infinite linear;
+// .prod_details_img img:nth-child(1){
+//     animation: rotation 8s infinite linear;
+// }
+// @keyframes rotation{
+//    from{
+//     transform: rotateX(0deg);
+//    } 
+//    to{
+//     transform: rotateY(-180deg);
+//    }
+// }
+
+
+.prod_details_img img {
+    transition: transform 0.3s ease;
 }
-@keyframes rotation{
-   from{
-    transform: rotateX(0deg);
-   } 
-   to{
-    transform: rotateY(-180deg);
-   }
+
+.prod_details_img img:hover{
+    transform: rotate(10deg); /* Adjust the angle as needed */
 }
+
 .prod_details_right_col {
     .separator {
         @include margin-y(2.2rem, 2.2rem);

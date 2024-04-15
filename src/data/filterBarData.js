@@ -66,42 +66,32 @@ export const brandsMenu = [
     },
     {
         id: 4,
-        label: "Laptops",
-        images: [
-            "/assets/tv.png",       
-        ],
+        label: "Laptop",
+      
         checked: false,
     },
     {
         id: 5,
         label: "Mobile Accesories",
-        images: [
-            "/assets/tv.png",       
-        ],
+    
         checked: false,
     },
     {
         id: 6,
         label: "Earbuds",
-        images: [
-            "/assets/tv.png",       
-        ],
+      
         checked: false,
     },
     {
         id: 7,
         label: "Earphones",
-        images: [
-            "/assets/tv.png",       
-        ],
+       
         checked: false,
     },
     {
         id: 8,
         label: "Neckbands",
-        images: [
-            "/assets/tv.png",       
-        ],
+       
         checked: false,
     },
 ];

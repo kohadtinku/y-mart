@@ -497,6 +497,28 @@ const productsData = [
         rateCount: 4,
         path: "/product-details/",
     },
+    // laptop
+    {
+        id: 24,
+        images: [
+            "/images/products/ASUS1.png",
+            "/images/products/ASUS.png",
+            "/images/products/sonyxb400-3.png",
+            "/images/products/sonyxb400-4.png",
+        ],
+        brand: "ASUS",
+        title: "Sony WI-XB400",
+        info: "Wireless Extra Bass In-Ear Neckbands",
+        category: "Laptop",
+        type: "In Ear",
+        connectivity: "Wireless",
+        finalPrice: 2690,
+        originalPrice: 4990,
+        quantity: 1,
+        ratings: 474,
+        rateCount: 4,
+        path: "/product-details/",
+    },
 ];
 
 export default productsData;
