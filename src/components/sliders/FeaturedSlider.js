@@ -34,17 +34,17 @@ const FeaturedSlider = () => {
                 slideShadows: false,
             }}
             autoplay={{
-                delay: 3500,
+                delay: 3000,
                 disableOnInteraction: false,
             }}
             breakpoints={{
                 768: {
-                    slidesPerView: 2,
-                    spaceBetween: 200
+                    slidesPerView: 3,
+                    spaceBetween: 250
                 },
                 992: {
                     slidesPerView: 3,
-                    spaceBetween: 250
+                    spaceBetween: 300
                 },
             }}
             className="featured_swiper"

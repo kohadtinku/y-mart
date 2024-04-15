@@ -11,6 +11,7 @@
 
     ul {
         grid-template-columns: 0.4fr;
+        justify-content: center;
 
         li {
             @include flexbox(space-between, center);
@@ -56,6 +57,7 @@
 
     ul {
         gap: 3rem;
+        justify-content: center;
     }
 
     .user_info {
