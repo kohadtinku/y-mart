@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import { displayMoney } from '../../helpers/utils';
 import cartContext from '../../contexts/cart/cartContext';
 import useActive from '../../hooks/useActive';
+// import { ToastContainer, toast } from 'react-toastify';
+
+// import 'react-toastify/dist/ReactToastify.css';
 
 
 const ProductCard = (props) => {
@@ -18,6 +21,11 @@ const ProductCard = (props) => {
     const handleAddItem = () => {
         const item = { ...props };
         addItem(item);
+        // toast("Added To Cart");
+        // console.log(toast);
+alert("Added to cart")
+// toast.success(`Added to cart, ${item.id}!`);
+
 
         handleActive(id);
 
@@ -59,7 +67,18 @@ const ProductCard = (props) => {
                         onClick={handleAddItem}
                     >
                         {active ? 'Added' : 'Add to cart'}
+                    {/* <ToastContainer  position="top-right"
+         autoClose={3000}
+         hideProgressBar={false}
+         newestOnTop={false}
+         closeOnClick
+         rtl={false}
+         limit={1}
+         pauseOnFocusLoss
+         draggable
+         pauseOnHover /> */}
                     </button>
+
                 </div>
             </div>
         </>

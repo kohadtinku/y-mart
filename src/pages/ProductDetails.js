@@ -10,9 +10,12 @@ import SectionsHead from '../components/common/SectionsHead';
 import RelatedSlider from '../components/sliders/RelatedSlider';
 import ProductSummary from '../components/product/ProductSummary';
 import Services from '../components/common/Services';
+import { ToastContainer, toast } from 'react-toastify';
 
+import 'react-toastify/dist/ReactToastify.css';
 
 const ProductDetails = () => {
+    // const notify = () => toast("Wow so easy!");
 
     useDocTitle('Product Details');
 
@@ -36,6 +39,8 @@ const ProductDetails = () => {
     // handling Add-to-cart
     const handleAddItem = () => {
         addItem(product);
+        toast("Added To Cart");
+
     };
 
 
@@ -133,6 +138,7 @@ const ProductDetails = () => {
                             <div className="separator"></div>
 
                             <div className="prod_details_buy_btn">
+                            
                                 <button
                                     type="button"
                                     className="btn"
@@ -140,6 +146,7 @@ const ProductDetails = () => {
                                 >
                                     Add to cart
                                 </button>
+                                <ToastContainer />
                             </div>
 
                         </div>

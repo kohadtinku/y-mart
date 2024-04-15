@@ -6,6 +6,7 @@ import productsData from '../../data/productsData';
 import ProductCard from './ProductCard';
 
 
+
 const TopProducts = () => {
 
     const [products, setProducts] = useState(productsData);
@@ -63,6 +64,7 @@ const TopProducts = () => {
                     </Link>
                 </div>
             </div>
+
         </>
     );
 };

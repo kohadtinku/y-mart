@@ -6,7 +6,9 @@ import ProductCard from '../components/product/ProductCard';
 import Services from '../components/common/Services';
 import filtersContext from '../contexts/filters/filtersContext';
 import EmptyView from '../components/common/EmptyView';
+// import { ToastContainer, toast } from 'react-toastify';
 
+// import 'react-toastify/dist/ReactToastify.css';
 
 const AllProducts = () => {
 
@@ -42,8 +44,11 @@ const AllProducts = () => {
                     }
                 </div>
             </section>
+      
 
             <Services />
+                                {/* <ToastContainer /> */}
+
         </>
     );
 };
