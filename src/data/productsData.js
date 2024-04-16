@@ -501,8 +501,8 @@ const productsData = [
     {
         id: 24,
         images: [
+            "/images/products/ASUS.jpg",
             "/images/products/ASUS1.png",
-            "/images/products/ASUS.png",
             "/images/products/sonyxb400-3.png",
             "/images/products/sonyxb400-4.png",
         ],

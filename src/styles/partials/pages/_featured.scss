@@ -12,7 +12,7 @@
 }
 
 .featured_swiper {
-    @include padding-y(3rem !important, 5rem !important);
+    @include padding-y(3rem !important, 3rem !important);
 }
 
 .featured_img {
@@ -20,9 +20,12 @@
     overflow: hidden;
 
     img {
-        width: 65%;
+        width: 55%;
         @include img-fit;
     }
+}
+.featured_img img{
+    width: 50% !important;
 }
 
 // .featured_img img:nth-child(1){
